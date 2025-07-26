@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+    <header>
+        <h1>Welcome to the x11games!</h1>
+    </header>
+    
+    <main>
+        <h2>Choose your game</h2>
+        <!-- Button to navigate to the Hangman page -->
+        <a href="/games/hangman">
+            <button class="game-button">Play Hangman</button>
+        </a>
+    </main>
+{% endblock %}
